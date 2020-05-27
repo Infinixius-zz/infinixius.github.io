@@ -1,0 +1,184 @@
+
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  background: rgb(19,19,19);
+}
+
+/* Page Sections */
+
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #222;
+  color: white;
+}
+
+.section1 {
+  padding: 120px;
+  background: #131313;
+  color: white;
+}
+
+.section1 h1 {
+  font-family: "Montserrat", sans-serif;
+}
+.section1 h2 {
+  font-family: "Montserrat", sans-serif;
+}
+.section1 h3 {
+  font-family: "Montserrat", sans-serif;
+}
+.section1 p {
+  font-family: "Roboto", sans-serif;
+}
+
+.errorsection {
+  padding: 120px;
+  background: #131313;
+  color: white;
+}
+
+.errorsection h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  margin-bottom: 1px;
+}
+.errorsection h2 {
+  font-family: "Montserrat", sans-serif;
+}
+.errorsection p {
+  font-family: "Roboto", sans-serif;
+}
+
+.section2 {
+  padding: 120px;
+  background: #131313;
+  color: white;
+  text-align: center;
+}
+
+.section2 form h3 {
+  font-family: "Roboto", sans-serif;
+}
+.section2 form input:hover {
+  background-color: #e9e9e9;
+}
+.section2 form textarea:hover {
+  background-color: #e9e9e9;
+}
+.section2 form input:hover {
+  background-color: #e9e9e9;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgb(39, 39, 39);
+  font-family: "Open Sans", sans-serif; 
+  color: white;  
+}
+
+
+.main h2 {
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+.main p {
+  font-family: "Open Sans", sans-serif; 
+  color: white;   
+}
+
+/* Text */
+
+a {
+  color: #999;
+}
+code { 
+  background-color: rgb(51, 51, 51); 
+  color: rgb(226, 226, 226); 
+  border-radius: 8%;
+  font-size: 80%;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Containers */
+
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+.centrow {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: rgb(29, 28, 28);
+  padding: 20px;
+}
+
+/* Responsiveness */
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+
+
+#navbar {
+  overflow: hidden;
+  background-color: #111;
+  height:30px;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding-left:5px;
+  padding-right:5px;
+  text-decoration: none;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+}
+
+ input[type=text], select, textarea{
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    color: black;
+}

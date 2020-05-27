@@ -1,0 +1,55 @@
+
+/* Main Projects */
+
+.project h2 {
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 3px;
+}
+.project h2 small {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+.project p {
+    font-family: "Roboto", sans-serif;
+    margin-top: 30px;
+}
+.project a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: lightgrey;
+}
+.project img {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 8%;
+}
+.project a img {
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+/* Small Projects */
+
+.sproject h3 {
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 1px;
+}
+.sproject h3 small {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+}
+.sproject p {
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+.sproject a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    color: lightgrey;
+}
